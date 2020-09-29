@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.accordion-body {
+	height: auto;
+	min-height: 100px;
+}
+
+.accordion-header {
+	cursor: pointer;
+	padding: 10px;
+	background-color: #eee;
+	position: relative;
+}
+
+.accordion-header:hover {
+	background-color: #eee;
+	text-decoration: underline;
+}
+
+.accordion-header-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer {
+	background-color: red;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+/*  Bogus style */
+/* .accordion-body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.accordion-body > p {
+	background: tomato;
+	padding: 5px;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+} */
+
+img {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	object-fit: contain;
+}
+
+.flexContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
