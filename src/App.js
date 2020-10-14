@@ -27,6 +27,22 @@ function App() {
         }
       ],
       linktitle: "Google Link"
+    },
+    {
+      title: "Third Accordion",
+      body: "I am just a body hiddent untill someone clicked on me",
+      linkUrl: [
+        {
+          'url': "https://upload.wikimedia.org/wikipedia/commons/7/77/Google_Images_2015_logo.svg"
+        },
+        {
+          'url': "https://upload.wikimedia.org/wikipedia/commons/7/77/Google_Images_2015_logo.svg"
+        },
+        {
+          'url': "https://upload.wikimedia.org/wikipedia/commons/7/77/Google_Images_2015_logo.svg"
+        }
+      ],
+      linktitle: "Google Link"
     }
   ]
 

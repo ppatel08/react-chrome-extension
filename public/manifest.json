@@ -8,5 +8,5 @@
 		"default_title": "My Extension",
 		"default_icon": "logo192.png"
 	},
-	"permission": []
+	"permission": [ "storage" ]
 }
